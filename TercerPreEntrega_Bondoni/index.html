@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <h1>Inscripción de alumnos</h1>
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre"><br>
+
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido"><br>
+
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad"><br>
+
+    <label for="genero">Género:</label>
+    <select id="genero">
+      <option value="masculino">Masculino</option>
+      <option value="femenino">Femenino</option>
+    </select><br>
+
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion"><br>
+
+    <label for="telefono">Teléfono:</label>
+    <input type="text" id="telefono"><br>
+
+    <label for="email">Correo electrónico:</label>
+    <input type="email" id="email"><br>
+
+    <label for="curso">Curso o carrera:</label>
+    <input type="text" id="curso"><br>
+
+    <button type="button" onclick="guardarAlumno()">Guardar</button>
+  </form>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
